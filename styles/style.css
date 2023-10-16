@@ -12,6 +12,13 @@ body {
   color: var(--primary-3);
 }
 
+/* common CSS */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Hero */
 
 .hero {
@@ -21,4 +28,12 @@ body {
 
 .hero .container {
   min-height: 620px;
+  display: flex;
+  align-items: center;
+}
+.hero .text-block {
+  border-radius: 29px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5.5px);
+  padding: 48px 60px 58px 60px;
 }
