@@ -31,6 +31,20 @@ body {
   border-radius: 20px;
 }
 
+.section {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.section-title {
+  text-align: center;
+  max-width: 781px;
+  font-size: 45px;
+  line-height: 116%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Hero */
 
 .hero {
@@ -58,4 +72,26 @@ h1 {
 
 .text-block .pill {
   margin-bottom: 21px;
+}
+
+/* Services ----------------------------------- */
+.services .container {
+  text-align: center;
+}
+.services .pill {
+  background-color: var(--primary-2);
+}
+
+.services-cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  flex: 1 1 30%;
+  text-align: left;
+}
+.services-card img {
+  width: 84px;
 }
