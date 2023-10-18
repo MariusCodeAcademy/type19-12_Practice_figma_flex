@@ -141,6 +141,37 @@ h1 {
   line-height: 147.5%; /* 23.6px */
 }
 
+/* FOOTER ============================= */
+footer {
+  background-color: var(--primary-3);
+  color: var(--secondary-2);
+  padding-top: 126px;
+}
+.block-logo h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 105%; /* 31.5px */
+  margin-bottom: 31px;
+}
+
+.block-logo p {
+  font-size: 20px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 116%; /* 23.2px */
+}
+.footer-title::after {
+  content: '';
+  margin-top: 11px;
+  width: 32px;
+  height: 3px;
+  display: block;
+  background-color: var(--primary-1);
+  border-radius: 20px;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
