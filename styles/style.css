@@ -140,3 +140,34 @@ h1 {
   font-family: 'Lato' sans-serif;
   line-height: 147.5%; /* 23.6px */
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+  /* tablet */
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pill {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 33px;
+  }
+  .services-card {
+    flex-basis: 47%;
+    padding: 24px 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* mobilus */
+  .services-card {
+    flex-basis: 100%;
+    padding: 24px 30px;
+  }
+  /* utility */
+  .dn-mobile {
+    display: none;
+  }
+}
